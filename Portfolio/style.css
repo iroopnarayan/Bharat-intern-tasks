@@ -17,6 +17,7 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
 .profile-img:hover{
     border: 2px solid rgb(72, 72, 72);
 }
@@ -29,8 +30,6 @@
     border-radius: 50%;
 }
     
-
-
 .portfolio-title{
     font-size: 4.5rem;
 }
@@ -45,18 +44,17 @@
     top:50%;
     left:50%;
     color: #b3b3b3;
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%,-50%); 
 }
-
 
 .about-img{
     border: transparent;
     border-radius: 20px;
     margin-top: 36px;
     width: 100%;
-   
 }
+
+
 .about-img:hover{
     box-shadow: 12px 12px 20px #f8cda3;
 }
@@ -65,75 +63,77 @@
     font-size: 36px;
     text-align: center;
     width: 100%;
-    
 }
 
 .card-title{
     text-align: center;
 }
+
 .card-mt{
     margin-top: -8px;
 }
 
 .card:hover .projectIcon{
-    
     color: rgb(40, 62, 202);
 }
+
 .projectText:hover{
     border: 1px solid rgb(85, 138, 245);
-    
 }
 
 .servicesText.card{
    height: 280px;
    cursor: pointer;
 }
+
 .card:hover .servicesIcon{
-    
     color: rgb(12, 129, 51);
 }
+
 .servicesText:hover{
     border: 1px solid rgb(66, 189, 72);
-    
 }
+
  .navbarDark{
     background-color: rgba(10, 10, 10, 0.5);
 }
-
 
 #display-google-map img {
     max-height: none;
     max-width: none !important;
     background: none !important;
 }
+
 .google-map:hover{
     box-shadow:-20px 20px 40px rgb(212, 225, 239);
 }
+
 #contact{
     padding-bottom: 4rem;
 }
-
 
 /* footer icons */
 .social-icons{
     font-size: 36px;
     cursor: pointer;
 }
+
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover{
     color: green;
 }
+
 .fab{
     color: #000000;
 }
+
 #footer{
     background-color: #808080;
     text-align: center;
 }
 
 #about,#services,#portfolio,#contact{
-margin-top: 2rem;
-padding-top:2rem;
-
+    margin-top: 2rem;
+    padding-top:2rem;
 }
 
 h1{
